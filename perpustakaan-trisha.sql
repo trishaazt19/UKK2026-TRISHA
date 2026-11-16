@@ -18,8 +18,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `peminjaman_buku`
+-- Database: `perpustakaan-trisha`
 --
+CREATE DATABASE IF NOT EXISTS `perpustakaan-trisha` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE `perpustakaan-trisha`;
 
 -- --------------------------------------------------------
 
@@ -243,7 +245,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `email`, `role`, `kelas`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
 (1, 'Admin', 'admin@perpus.test', 'admin', NULL, NULL, '$2y$12$0yR7LkalClsY6iSxTiKV/uAlDp1rWpOYLaRKBrOokBakkRA9Y5LiW', NULL, '2026-11-11 03:16:27', '2026-11-11 03:16:27'),
-(2, 'Dinda', 'siswa@perpus.test', 'siswa', 'XII RPL 1', NULL, '$2y$12$DGJc6S0XQjpt5f5NLXz6Duk8bOb1CVEQ2vrrqyD9/hIIZwlTBziEu', NULL, '2026-11-11 03:16:27', '2026-11-11 04:17:40');
+(2, 'Trisha', 'siswa@perpus.test', 'siswa', 'XII RPL 1', NULL, '$2y$12$DGJc6S0XQjpt5f5NLXz6Duk8bOb1CVEQ2vrrqyD9/hIIZwlTBziEu', NULL, '2026-11-11 03:16:27', '2026-11-11 04:17:40');
 
 --
 -- Indexes for dumped tables

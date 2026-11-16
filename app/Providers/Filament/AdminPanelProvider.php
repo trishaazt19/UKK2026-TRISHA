@@ -30,7 +30,7 @@ class AdminPanelProvider extends PanelProvider
             ->login()
             ->registration()
             ->colors([
-                'primary' => Color::Pink, // Mengatur tema utama menjadi pink (otomatis mengubah warna latar aktif & aksen)
+                'primary' => Color::Pink, 
             ])
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\Filament\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\Filament\Pages')

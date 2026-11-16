@@ -11,7 +11,7 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        // Data User dengan Role yang Sesuai
+        
         User::create([
             'name' => 'Admin',
             'email' => 'admin@perpus.test',
